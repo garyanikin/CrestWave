@@ -1,0 +1,12 @@
+.header__logo {
+  width: 190.45px;
+  height: 31px;
+  background-image: url(../../../images/logo_cwt.png);
+  border: 1px solid red;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  margin-right: 195.55px;
+}

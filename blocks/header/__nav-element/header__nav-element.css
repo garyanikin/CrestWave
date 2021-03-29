@@ -1,0 +1,6 @@
+.header__nav-element {
+  margin-right: 30px;
+}
+.header__nav-element:last-child {
+  margin-right: 0;
+}

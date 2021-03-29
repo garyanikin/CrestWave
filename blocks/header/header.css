@@ -1,0 +1,18 @@
+@import url('./__logo/header__logo.css');
+@import url('./__nav/header__nav.css');
+@import url('./__nav-list/header__nav-list.css');
+@import url('./__link/header__link.css');
+@import url('./__phone/header__phone.css');
+@import url('./__phone-logo/header__phone-logo.css');
+@import url('./__phone-number/header__phone-number.css');
+@import url('./__nav-element/header__nav-element.css');
+
+.header {
+  border: 1px solid red;
+  color: #080E2C;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+
+}
