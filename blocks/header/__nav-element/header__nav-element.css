@@ -4,3 +4,9 @@
 .header__nav-element:last-child {
   margin-right: 0;
 }
+.header__nav-element_menu {
+  padding-bottom: 8px;
+}
+.header__nav-element_menu:hover {
+  opacity: .5;
+}

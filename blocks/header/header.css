@@ -6,13 +6,14 @@
 @import url('./__phone-logo/header__phone-logo.css');
 @import url('./__phone-number/header__phone-number.css');
 @import url('./__nav-element/header__nav-element.css');
+@import url('./__link-arrow/header__link-arrow.css');
 
 .header {
-  border: 1px solid red;
+  position: fixed;
   color: #080E2C;
   font-weight: 400;
   font-style: normal;
   font-family: 'Montserrat', sans-serif;
   display: flex;
-
+  margin: 0 auto;
 }

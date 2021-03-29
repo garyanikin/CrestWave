@@ -1,7 +1,6 @@
-.header__nav-list {
+.drop-down-menu__nav-list {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding-left: 0;
-  padding-top: 8px;
 }

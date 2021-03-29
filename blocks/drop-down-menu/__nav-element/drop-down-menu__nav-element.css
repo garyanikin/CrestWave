@@ -1,0 +1,6 @@
+.drop-down-menu__nav-element {
+  margin-right: 53px;
+}
+.drop-down-menu__nav-element:last-child {
+  margin-right: 0;
+}

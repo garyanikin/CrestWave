@@ -1,0 +1,7 @@
+.drop-down-menu__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33px;
+  margin-bottom: 34px;
+}

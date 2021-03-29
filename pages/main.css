@@ -1,5 +1,6 @@
 @import url('../vendor/normalize.css');
 @import url('../blocks/header/header.css');
+@import url('../blocks/drop-down-menu/drop-down-menu.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
@@ -14,4 +15,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }

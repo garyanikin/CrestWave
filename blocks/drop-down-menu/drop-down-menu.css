@@ -1,0 +1,16 @@
+@import url('./__nav/drop-down-menu__nav.css');
+@import url('./__nav-list/drop-down-menu__nav-list.css');
+@import url('./__nav-element/drop-down-menu__nav-element.css');
+@import url('./__link/drop-down-menu__link.css');
+
+.drop-down-menu {
+  position: absolute;
+  top: 99px;
+  display: none;
+  width:100%;
+  background-color:#EDEFF4;
+}
+
+.drop-down-menu_active {
+  display: block;
+}
