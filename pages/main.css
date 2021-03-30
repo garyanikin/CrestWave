@@ -1,8 +1,14 @@
 @import url('../vendor/normalize.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/drop-down-menu/drop-down-menu.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/location/location.css');
+@import url('../blocks/services/services.css');
+@import url('../blocks/footer/footer.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .body {
   background-color: #FFFFFF;
@@ -16,4 +22,5 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  background-color: #E5E5E5;
 }

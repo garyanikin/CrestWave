@@ -1,0 +1,66 @@
+.footer {
+  color: #080E2C;
+  width: 76.736%;
+  margin-top: 120px;
+  margin-bottom: 49px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 255px;
+  height: 64px;
+  margin: 0;
+  margin-right: 450px;
+}
+
+.footer__phone {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.footer__phone-logo {
+  margin: 0;
+  width: 18px;
+  height: 18px;
+  margin-right: 14px;
+}
+.footer__phone-number {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.footer__email {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  order:4;
+  flex-basis: 195.83px;
+}
+.footer__email-logo {
+  margin: 0;
+  width: 20px;
+  height: 16px;
+  margin-right: 12px;
+}
+.footer__email-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.footer__politics {
+  margin: 0;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  opacity: 50%;
+}
