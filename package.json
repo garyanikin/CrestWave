@@ -2,7 +2,7 @@
   "name": "crestwave",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "build": "rimraf dist && parcel build src/index.html --public-url /CrestWave/ --no-content-hash",
     "dev": "rimraf dist && parcel src/index.html --open",
