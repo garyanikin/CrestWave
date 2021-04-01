@@ -3,3 +3,9 @@
   align-items: center;
   margin-right: 70px;
 }
+
+@media all and (max-width:1105px) {
+  .header__nav {
+    display: none;
+  }
+}

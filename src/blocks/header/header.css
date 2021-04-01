@@ -7,6 +7,7 @@
 @import url('./__phone-number/header__phone-number.css');
 @import url('./__nav-element/header__nav-element.css');
 @import url('./__link-arrow/header__link-arrow.css');
+@import url('./__burger/header__burger.css');
 
 .header {
   position: fixed;
@@ -16,10 +17,10 @@
   font-style: normal;
   font-family: 'Montserrat', sans-serif;
   z-index: 1000;
-  background-color: #FFFFFF;
   width:100%;
   display: flex;
   justify-content: center;
+  box-shadow: 0px 4px 11px rgba(8, 14, 44, 0.1);
 }
 
 .header__container {
@@ -27,3 +28,13 @@
   margin: 0 auto;
 }
 
+@media all and (min-width: 320px) and (max-width: 500px) {
+  .header__container {
+    width: 90.625%;
+  }
+}
+@media all and (min-width: 500px) and (max-width: 1105px) {
+  .header__container {
+    width: 88.28125%;
+  }
+}
