@@ -1,0 +1,49 @@
+{
+  "name": "crestwave",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && parcel build src/index.html --public-url /CrestWave/ --no-content-hash",
+    "dev": "rimraf dist && parcel src/index.html --open",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TroyKiri/CrestWave.git"
+  },
+  "author": "Troykiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TroyKiri/CrestWave/issues"
+  },
+  "homepage": "https://github.com/TroyKiri/CrestWave#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-custom-dist-structure": "^1.1.17",
+    "rimraf": "^3.0.2"
+  },
+  "customDistStructure": {
+    "config": {
+      ".js": "js",
+      "images": [
+        ".jpg",
+        ".png",
+        ".svg"
+      ],
+      "styles": [
+        ".css",
+        ".map"
+      ],
+      ".fileExtension": "folder/in/dist",
+      "folder/in/dist": [
+        ".file",
+        ".extensions"
+      ]
+    },
+    "options": {
+      "development": true
+    }
+  }
+}
