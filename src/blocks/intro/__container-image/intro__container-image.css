@@ -94,9 +94,9 @@
   }
   .intro__vector_second {
     bottom: 0;
-    left: -33.924%;
-    width: 83.5443%;
-    height: 131.898734%;
+    left: -35%;
+    width: 83.7974%;
+    height: 134.625%;
   }
   .intro__pay {
     bottom: -11.23%;
@@ -129,8 +129,8 @@
   .intro__vector_second {
     bottom: 0;
     left: -33.924%;
-    width: 83.5443%;
-    height: 131.898734%;
+    width: 83.7974%;
+    height: 134.625%;
   }
   .intro__pay {
     bottom: -11.23%;
@@ -140,8 +140,13 @@
     z-index: 2;
   }
   .intro__circle {
-    top: 53.67%;
+    top: 50.67%;
     left: 44.81%;
+    width: 135px;
+    height: 135px;
+  }
+  .intro__circle-text {
+    font-size: 18px;
   }
 }
 
