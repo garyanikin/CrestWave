@@ -34,6 +34,7 @@
   }
 }
 @media all and (min-width: 500px) and (max-width: 1105px) {
+
   .header__container {
     width: 88.28125%;
   }
