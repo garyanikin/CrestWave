@@ -6,12 +6,30 @@
 .drop-down-menu {
   position: absolute;
   top: 99px;
+  /* display:flex; */
+  flex-direction: column;
+  align-items: center;
   display: none;
+
+}
+
+.drop-down-menu_active {
+  display: flex;
+  z-index:10;
+}
+
+.drop-down-menu__container {
+  position: absolute;
+  top: 0px;
+  z-index: 10;
   width:100%;
   max-width: 1440px;
   background-color:#EDEFF4;
 }
 
-.drop-down-menu_active {
-  display: block;
+.drop-down-menu__shadow {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.2;
 }
