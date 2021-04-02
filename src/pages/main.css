@@ -5,7 +5,6 @@
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/location/location.css');
 @import url('../blocks/services/services.css');
-@import url('../blocks/footer/footer.css');
 
 .body {
   background-color: #e5e5e5;
